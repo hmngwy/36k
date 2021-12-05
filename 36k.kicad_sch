@@ -1946,7 +1946,7 @@
     (uuid 108f5211-f2b2-456f-a4f6-42a19533a817)
     (property "Reference" "RSW4" (id 0) (at 241.935 106.68 0))
     (property "Value" "SW_SPDT" (id 1) (at 241.935 109.22 0))
-    (property "Footprint" "kbd:Power" (id 2) (at 241.935 114.3 0)
+    (property "Footprint" "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" (id 2) (at 241.935 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 241.935 114.3 0)
@@ -2138,7 +2138,7 @@
     (uuid 2b4cd6f8-610c-4bed-82fb-80f1c198ef79)
     (property "Reference" "RSW2" (id 0) (at 164.465 102.87 0))
     (property "Value" "SW_SPDT" (id 1) (at 164.465 105.41 0))
-    (property "Footprint" "kbd:Power" (id 2) (at 164.465 110.49 0)
+    (property "Footprint" "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" (id 2) (at 164.465 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 164.465 110.49 0)
@@ -3495,7 +3495,7 @@
   (symbol (lib_id "power:GNDA") (at 247.015 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f29568a0-1ec1-42ff-905c-80b34769e09a)
-    (property "Reference" "#PWR?" (id 0) (at 247.015 120.65 0)
+    (property "Reference" "#PWR0119" (id 0) (at 247.015 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (id 1) (at 247.015 118.11 0))
@@ -3635,6 +3635,9 @@
     (path "/7758504b-7061-4ea7-97b0-75a4c8fa1273"
       (reference "#PWR0118") (unit 1) (value "VDD") (footprint "")
     )
+    (path "/f29568a0-1ec1-42ff-905c-80b34769e09a"
+      (reference "#PWR0119") (unit 1) (value "GNDA") (footprint "")
+    )
     (path "/1b14a23a-a1e4-4f61-b7c6-ed0f52a809c1"
       (reference "#PWR0120") (unit 1) (value "GNDA") (footprint "")
     )
@@ -3643,9 +3646,6 @@
     )
     (path "/571de973-adb5-47fd-a5ef-4a9331c6c9d7"
       (reference "#PWR0122") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/f29568a0-1ec1-42ff-905c-80b34769e09a"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/462d22f2-86b2-4b4c-9247-161cd747f1dd"
       (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "kbd:Battery_pads")
@@ -3777,13 +3777,13 @@
       (reference "RSW1") (unit 1) (value "SW_PUSH") (footprint "kbd:ResetSW_1side")
     )
     (path "/2b4cd6f8-610c-4bed-82fb-80f1c198ef79"
-      (reference "RSW2") (unit 1) (value "SW_SPDT") (footprint "kbd:Power")
+      (reference "RSW2") (unit 1) (value "SW_SPDT") (footprint "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled")
     )
     (path "/29ac1228-48da-4502-883d-75bf99318acd"
       (reference "RSW3") (unit 1) (value "SW_PUSH") (footprint "kbd:ResetSW_1side")
     )
     (path "/108f5211-f2b2-456f-a4f6-42a19533a817"
-      (reference "RSW4") (unit 1) (value "SW_SPDT") (footprint "kbd:Power")
+      (reference "RSW4") (unit 1) (value "SW_SPDT") (footprint "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled")
     )
     (path "/da8e60a0-73b4-45a9-9589-4af5241172ba"
       (reference "SW1") (unit 1) (value "SW_PUSH") (footprint "kbd:CherryMX_Hotswap")
